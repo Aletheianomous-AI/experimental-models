@@ -1,0 +1,11 @@
+accelerate
+pandas
+numpy
+matplotlib
+pandoc
+torch
+transformers
+jupyterlab
+nbconvert
+yake
+nltk
