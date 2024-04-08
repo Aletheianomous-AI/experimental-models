@@ -5,6 +5,7 @@ matplotlib
 pandoc
 torch
 transformers
+ipykernel
 jupyterlab
 nbconvert
 yake
