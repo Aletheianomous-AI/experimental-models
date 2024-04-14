@@ -1,10 +1,13 @@
 accelerate
+bitsandbytes
 datasets
 pandas
 numpy
 matplotlib
+peft
 pandoc
 torch
+trl
 transformers
 ipykernel
 jupyterlab
