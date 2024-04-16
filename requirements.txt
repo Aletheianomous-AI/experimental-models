@@ -6,6 +6,7 @@ numpy
 matplotlib
 peft
 pandoc
+spacy
 torch
 trl
 transformers
