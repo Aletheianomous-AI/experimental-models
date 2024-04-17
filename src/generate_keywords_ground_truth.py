@@ -146,7 +146,7 @@ if KEYWORD_GEN_MODEL == "yake":
     mgr = Manager()
     ns = mgr.Namespace()
     ns.df = temp_ds
-    generate_keywords(temp_ds, 0, len(ns.df), batch_size=1024)
+    generate_keywords(ns, 0, len(ns.df), batch_size=1024)
 elif KEYWORD_GEN_MODEL == "zephyr":
     zephyr = pipeline("text-generation", model="HuggingFaceH4/zephyr-7b-alpha",
                  torch_dtype = torch.bfloat16, device_map="auto")
@@ -166,30 +166,6 @@ else:
 
 
 #generate_keywords_by_zephyr(zephyr, temp_ds)
-
-
-# In[ ]:
-
-
-squad_ds.head()
-
-
-# In[ ]:
-
-
-squad_ds.tail()
-
-
-# In[ ]:
-
-
-squad_ds['keyword']
-
-
-# In[ ]:
-
-
-squad_ds['is_searchable'] = True
 
 
 # In[ ]:
