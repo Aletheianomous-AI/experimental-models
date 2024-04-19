@@ -19,6 +19,7 @@ torchtext==0.6
 trl
 transformers
 ipykernel
+ipywidgets
 jupyterlab
 nbconvert
 yake
