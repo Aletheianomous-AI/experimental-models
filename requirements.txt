@@ -2,6 +2,7 @@ absl-py
 accelerate
 bitsandbytes
 datasets
+duckduckgo-search
 evaluate
 pandas
 numpy
